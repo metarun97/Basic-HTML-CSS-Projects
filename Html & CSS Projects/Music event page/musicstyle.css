@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1614149162883-504ce4d13909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav li {
+    float: right;
+    list-style: none;
+
+}
+
+.nav a {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: 550;
+    display: block;
+    padding: 5px 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.left-col {
+    margin-left: 11%;
+}
+
+.left-col h1 {
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.right-col {
+    float: right;
+    margin-right: 10%;
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p {
+    font-size: 21px;
+    color: white;
+    font-weight: 650;
+    margin-right: 40px;
+    font-family: Verdana;
+}
+
+#icon {
+    cursor: pointer;
+}
