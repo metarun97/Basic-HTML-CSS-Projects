@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equic="X-UA-Compatible" content="IE=edge">
+    <meta name="viewreport" content=
+    "width=device-width , initial-scale=1.0">
+    <title>
+        How to make image Gallery Using
+        HTML CSS and Javascript?
+    </title>
+    <link rel="stylesheet" href="imagegallery.css">
+
+
+</head>
+
+<body>
+    <h1>Welcome to GeekforGeeks Courses</h1>
+    <h6>Live Workshop and Online Courses!</h6>
+    <div class="myProducts">
+        <div class="myProducts-gallery">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKVgRV8Tp7ayPepPhRwNEiuULYdnsxWXChqJjdpqrIYVeudmRiZPNplso525vNj-YhHM&usqp=CAU"
+                alt="click here" onclick="myImageFunction(this)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjeu04i3OwL-ScJi6ANpBpzPss046qFz7JRoo9k4eBeF_sA1F8OhKQ_EEJ_IE0QfF1mA&usqp=CAU"
+                alt="click here" onclick="myImageFunction(this)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHd84hNNOwFAchDStpUp7uaUeWFirmypY8OQ&usqp=CAU"
+                alt="click here" onclick="myImageFunction(this)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlYiRU1RlQdXIWyd7DhDPKzd28cWJoho_6AnCzSLAYkCvToNZoZmgnmffuUd7PKDuFrE&usqp=CAU"
+                alt="click here" onclick="myImageFunction(this)">
+        </div>
+        <div class="image-container">
+            <img id="img-Box"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKVgRV8Tp7ayPepPhRwNEiuULYdnsxWXChqJjdpqrIYVeudmRiZPNplso525vNj-YhHM&usqp=CAU" 
+                alt="click here">
+        </div>
+    </div>
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
+</body>
+
+</html>
